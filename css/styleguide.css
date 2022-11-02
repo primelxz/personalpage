@@ -1,0 +1,56 @@
+:root { 
+  --black: #000000;
+  --romance: #fffdfd;
+  --stack: #8f8f8feb;
+  --white: #ffffff;
+ 
+  --font-size-l: 64px;
+  --font-size-m: 40px;
+  --font-size-s: 36px;
+  --font-size-xl: 96px;
+  --font-size-xs: 32px;
+  --font-size-xxl: 150px;
+  --font-size-xxs: 18px;
+ 
+  --font-family-abel: "Abel", Helvetica;
+  --font-family-blinker: "Blinker", Helvetica;
+}
+.blinker-normal-white-32px {
+  color: var(--white);
+  font-family: var(--font-family-blinker);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.abel-normal-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-abel);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.blinker-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-blinker);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.blinker-normal-romance-32px {
+  color: var(--romance);
+  font-family: var(--font-family-blinker);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.abel-normal-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-abel);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
